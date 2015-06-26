@@ -1,6 +1,6 @@
-# windows-mass-uninstall-windows-updates
 #Windows Updates Uninstaller Utility
 
+Credit for the utility goes to Kazenoco. I found it when researching how to do this from command line. instructions below.
 This utility (scripted in AutoHotKey) allows you to batch uninstall the Windows Updates you want from your system. It does not uninstall Service Packs, so you need to uninstall those manually.  Works in Windows XP, Vista, 7, 8 and 8.1.
 
 ##Installation
