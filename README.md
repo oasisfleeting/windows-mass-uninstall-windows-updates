@@ -29,3 +29,14 @@ wusa.exe /kb:279506 /uninstall /quiet /norestart
 wusa.exe /kb:279505 /uninstall /quiet /norestart
 }
 ```
+
+## Delete SoftwareDistribution Folder
+In order to remove this folder, you first have to stop the Windows Update and BITS services in Windows. To do this, click on Start -> services.msc
+Stop the windows update service
+Stop the BITS service
+Go to C:\Windows\SoftwareDistribution
+Delete/make backup of contents of Datasource and Download folders.
+Go fetch a copy of the latest wsusoffline.zip windows offline update package to get all updates in one shot.
+Perform whatever fixes need to be done to your system.
+Run the wsus offline updater.
+Hopefully you're fixed up.
