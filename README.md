@@ -20,11 +20,12 @@ There's no need to install anything, the executable is portable so you just need
 ``wusa.exe /kb:279503 /uninstall /quiet /norestart``
 
 can't run multiple uninstalls at once, so use robo or autohotkey to run one at a time.
-
-``RunWaitMany(commands) {
+```
+RunWaitMany(commands) {
 wusa.exe /kb:279509 /uninstall /quiet /norestart
 wusa.exe /kb:279508 /uninstall /quiet /norestart
 wusa.exe /kb:279507 /uninstall /quiet /norestart
 wusa.exe /kb:279506 /uninstall /quiet /norestart
 wusa.exe /kb:279505 /uninstall /quiet /norestart
-}``
+}
+```
