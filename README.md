@@ -14,9 +14,11 @@ There's no need to install anything, the executable is portable so you just need
 ``wmic qfe list brief /format:texttablewsys > "L:\kbs.txt"``
 
 ## use your favorite text editor to dump everything from the file except the kb's from the text file. 
-``Shift + Alt + Left Mouse Click in notepad++ will let you work in column mode. Or put it in a spreadsheet for easy parsing.``
+```
+Shift + Alt + Left Mouse Click in notepad++ will let you work in column mode. Or put it in a spreadsheet for easy parsing.
+```
 
-## Run the wusa uninstaller on each (k)iller (b)owl.
+## Run the wusa uninstaller on each (kb)
 ``wusa.exe /kb:279503 /uninstall /quiet /norestart``
 
 can't run multiple uninstalls at once, so use robo or autohotkey to run one at a time.
