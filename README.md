@@ -7,11 +7,11 @@ This utility (scripted in AutoHotKey) allows you to batch uninstall the Windows 
 
 There's no need to install anything, the executable is portable so you just need to download it and run it. The executable will create a temporal text file in its parent directory while it runs, and it will remove it automatically once it doesn't need it anymore.
 
-## Get a list of installed kind buds. 
+## Get a list of installed kb s 
 ``wmic qfe get "HotFixID" /format:table``
 
 ## Push your kb into a text file
-``wmic qfe list brief /format:texttablewsys > "L:\kindbuds.txt"``
+``wmic qfe list brief /format:texttablewsys > "L:\kbs.txt"``
 
 ## use your favorite text editor to dump everything from the file except the kb's from the text file. 
 ``Shift + Alt + Left Mouse Click in notepad++ will let you work in column mode. Or put it in a spreadsheet for easy parsing.``
